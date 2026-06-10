@@ -1,0 +1,41 @@
+# Android / Java build outputs
+bin/
+gen/
+build/
+out/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Gradle, if the project is migrated in the future
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+
+# Eclipse / ADT
+.classpath
+.project
+.settings/
+
+# Local SDK and machine-specific files
+local.properties
+ant.properties
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
